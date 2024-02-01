@@ -525,6 +525,17 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.ai-models {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ai-models li {
+  font-size: 18px;
+  margin-top: 14px;
+  margin-right: 30px;
+  width: 150px;
+}
+
 .about .content h2 {
   font-weight: 700;
   font-size: 44px;
@@ -569,9 +580,10 @@ section {
 }
 
 .why-us .box {
-  padding: 50px 30px;
+  padding: 30px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
+  height: 260px;
 }
 
 .why-us .box span {
@@ -582,7 +594,7 @@ section {
 }
 
 .why-us .box h4 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
@@ -591,7 +603,7 @@ section {
 
 .why-us .box p {
   color: #aaaaaa;
-  font-size: 15px;
+  font-size: 14px;
   margin: 0;
   padding: 0;
 }
@@ -798,6 +810,11 @@ section {
 
 .features .icon-box:hover h3 a {
   color: #5a5af3;
+}
+
+.expertise-svg {
+  width: 25px;
+  margin-right: 10px;
 }
 
 /*--------------------------------------------------------------
